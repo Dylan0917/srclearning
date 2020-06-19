@@ -128,7 +128,6 @@ public class ConsoleLog extends AbstractLog {
 				.set("msg", StrUtil.format(format, arguments));
 
 		final String logMsg = StrUtil.format(logFormat, dict);
-
 		//WARN以上级别打印至System.err
 		if (level.ordinal() >= Level.WARN.ordinal()) {
 			Console.error(t, logMsg);

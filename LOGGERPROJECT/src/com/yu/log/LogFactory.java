@@ -66,6 +66,13 @@ public abstract class LogFactory {
      * 获得日志对象
      *
      * @param clazz 日志对应类
+     *
+     * log = logCache.get(clazz);
+     * if (log == null) {
+     *     log = createLog();
+     *     logCache.put(clazz, log);
+     * }
+     *
      * @return 日志对象
      */
     public Log getLog(Class<?> clazz) {
