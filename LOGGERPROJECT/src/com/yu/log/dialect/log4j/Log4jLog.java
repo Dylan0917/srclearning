@@ -112,7 +112,11 @@ public class Log4jLog extends AbstractLog {
 			default:
 				throw new Error(StrUtil.format("Can not identify level: {}", level));
 		}
-		
+		Boolean is1 = logger.isEnabledFor(Level.TRACE);
+		Boolean is2 = logger.isEnabledFor(Level.DEBUG);
+		Boolean is3 = logger.isEnabledFor(Level.INFO);
+		Boolean is4 = logger.isEnabledFor(Level.WARN);
+		Boolean is5 = logger.isEnabledFor(Level.ERROR);
 		if(logger.isEnabledFor(log4jLevel)) {
 			logger.log(fqcn, log4jLevel, StrUtil.format(format, arguments), t);
 		}

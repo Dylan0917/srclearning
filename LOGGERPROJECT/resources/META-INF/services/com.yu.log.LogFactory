@@ -1,0 +1,2 @@
+com.yu.log.dialect.slf4j.Slf4jLogFactory
+com.yu.log.dialect.log4j.Log4jLogFactory
