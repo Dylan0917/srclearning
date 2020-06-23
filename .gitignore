@@ -7,3 +7,12 @@ LOGGERPROJECT/dataSources.local.xml
 # Editor-based HTTP Client requests
 LOGGERPROJECT/httpRequests/
 /LOGGERPROJECT/out/*
+# Default ignored files
+DBPROJECT/shelf/*
+DBPROJECT/.idea/workspace.xml
+# Datasource local storage ignored files
+DBPROJECT/dataSources/
+DBPROJECT/dataSources.local.xml
+# Editor-based HTTP Client requests
+DBPROJECT/httpRequests/
+/DBPROJECT/out/*
