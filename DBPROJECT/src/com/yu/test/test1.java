@@ -2,9 +2,6 @@ package com.yu.test;
 
 
 import com.yu.core.text.StrFormatter;
-import com.yu.db.nosql.redis.RedisDS;
-
-import java.io.IOException;
 
 /**
  * @author yu.wenhua
@@ -17,19 +14,6 @@ public class test1 {
         System.out.println(StrFormatter.format("this is \\{}  for {}", "a", "b"));
         System.out.println(StrFormatter.format("\"this {}  for {} gfgfg", "a", "b"));
         format("this is {}  for {} gfgf","1","2");
-
-        RedisDS redisDS = RedisDS.create();
-        for (int i = 0; i < 1000; i++) {
-            redisDS.setStr(String.valueOf(i),"str" + i);
-        }
-
-        System.out.println(redisDS.getStr("1"));
-        try {
-            redisDS.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
     }
     //字符串替换
     public static void format(String str,Object ... params){
