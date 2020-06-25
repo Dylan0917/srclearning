@@ -29,6 +29,8 @@ public class StrFormatter {
 			return strPattern;
 		}
 		final int strPatternLength = strPattern.length();
+//		当在使用StringBuilder处理大数据的时候，如果我们可以预知或者以很小的性能损失就能获得数据的大小时，
+//		提前指定StringBuilder的长度可显著提高处理速度
 
 		// 初始化定义好的长度以获得更好的性能
 		StringBuilder sbuf = new StringBuilder(strPatternLength + 50);
