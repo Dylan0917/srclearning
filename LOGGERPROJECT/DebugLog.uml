@@ -13,8 +13,8 @@
     <node x="1137.9711538461538" y="282.5">java.io.Serializable</node>
     <node x="1326.0" y="0.0">com.yu.log.level.TraceLog</node>
     <node x="986.0" y="0.0">com.yu.log.level.DebugLog</node>
-    <node x="330.0" y="0.0">com.yu.log.level.InfoLog</node>
     <node x="1259.75" y="518.5">java.lang.Enum</node>
+    <node x="330.0" y="0.0">com.yu.log.level.InfoLog</node>
     <node x="1920.0" y="517.0">com.yu.log.dialect.jdk.JdkLogFactory</node>
     <node x="777.25" y="471.0">com.yu.log.AbstractLog</node>
     <node x="1383.25" y="281.5">java.lang.Comparable</node>
@@ -80,12 +80,6 @@
       <point x="810.0" y="446.0" />
       <point x="0.0" y="110.0" />
     </edge>
-    <edge source="com.yu.log.dialect.jdk.JdkLog" target="com.yu.log.AbstractLog">
-      <point x="0.0" y="-256.5" />
-      <point x="733.25" y="1012.0" />
-      <point x="851.25" y="1012.0" />
-      <point x="-74.0" y="258.0" />
-    </edge>
     <edge source="com.yu.log.dialect.console.ConsoleLog" target="com.yu.log.AbstractLog">
       <point x="0.0" y="-268.0" />
       <point x="1117.25" y="1012.0" />
@@ -98,6 +92,12 @@
       <point x="1799.25" y="492.0" />
       <point x="-104.75" y="233.5" />
     </edge>
+    <edge source="com.yu.log.dialect.jdk.JdkLog" target="com.yu.log.AbstractLog">
+      <point x="0.0" y="-256.5" />
+      <point x="733.25" y="1012.0" />
+      <point x="851.25" y="1012.0" />
+      <point x="-74.0" y="258.0" />
+    </edge>
     <edge source="com.yu.log.Log" target="com.yu.log.level.DebugLog">
       <point x="67.39999999999998" y="-110.0" />
       <point x="877.4" y="171.0" />
@@ -105,9 +105,9 @@
       <point x="0.0" y="75.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.7279279279279278" x="1258.3532130181982" y="553.3577890206149" />
+  <settings layout="Hierarchic Group" zoom="0.36261261261261263" x="1057.0" y="1100.0" />
   <SelectedNodes>
-    <node>com.yu.log.LogFactory</node>
+    <node>com.yu.log.level.DebugLog</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>

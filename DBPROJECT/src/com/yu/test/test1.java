@@ -1,11 +1,6 @@
 package com.yu.test;
 
 
-import com.yu.core.text.StrFormatter;
-import com.yu.db.nosql.redis.RedisDS;
-
-import java.io.IOException;
-
 /**
  * @author yu.wenhua
  * @desc
@@ -13,7 +8,7 @@ import java.io.IOException;
  */
 public class test1 {
     public static void main(String[] args) {
-        //字符串替换
+       /* //字符串替换
         System.out.println(StrFormatter.format("this is \\{}  for {}", "a", "b"));
         System.out.println(StrFormatter.format("\"this {}  for {} gfgfg", "a", "b"));
         format("this is {}  for {} gfgf","1","2");
@@ -27,7 +22,7 @@ public class test1 {
             redisDS.close();
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
     }
     //字符串替换
     public static void format(String str,Object ... params){

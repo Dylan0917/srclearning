@@ -28,7 +28,9 @@
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="270.5" y="203.5" />
-  <SelectedNodes />
+  <SelectedNodes>
+    <node>com.yu.db.handler.RsHandler</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>

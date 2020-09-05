@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.yu.setting.Setting</OriginalElement>
+  <nodes>
+    <node x="223.0" y="1928.0">com.yu.setting.Setting</node>
+    <node x="72.5" y="1201.0">com.yu.setting.AbsSetting</node>
+    <node x="188.0" y="816.0">com.yu.core.getter.OptNullBasicTypeFromStringGetter</node>
+    <node x="403.5" y="1234.0">java.util.Map</node>
+    <node x="364.0" y="0.0">com.yu.core.getter.OptBasicTypeGetter</node>
+    <node x="127.0" y="0.0">com.yu.core.getter.BasicTypeGetter</node>
+    <node x="238.0" y="408.0">com.yu.core.getter.OptNullBasicTypeGetter</node>
+    <node x="0.0" y="955.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.yu.setting.AbsSetting" target="java.io.Serializable">
+      <point x="-77.75" y="-338.5" />
+      <point x="150.25" y="1176.0" />
+      <point x="84.0" y="1176.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.yu.setting.Setting" target="com.yu.setting.AbsSetting">
+      <point x="-103.0" y="-762.5" />
+      <point x="326.0" y="1903.0" />
+      <point x="228.0" y="1903.0" />
+      <point x="0.0" y="338.5" />
+    </edge>
+    <edge source="com.yu.setting.AbsSetting" target="com.yu.core.getter.OptNullBasicTypeFromStringGetter">
+      <point x="77.75" y="-338.5" />
+      <point x="305.75" y="1176.0" />
+      <point x="372.0" y="1176.0" />
+      <point x="0.0" y="167.5" />
+    </edge>
+    <edge source="com.yu.core.getter.OptNullBasicTypeGetter" target="com.yu.core.getter.BasicTypeGetter">
+      <point x="-67.0" y="-179.0" />
+      <point x="305.0" y="383.0" />
+      <point x="235.5" y="383.0" />
+      <point x="0.0" y="179.0" />
+    </edge>
+    <edge source="com.yu.core.getter.OptNullBasicTypeFromStringGetter" target="com.yu.core.getter.OptNullBasicTypeGetter">
+      <point x="0.0" y="-167.5" />
+      <point x="0.0" y="179.0" />
+    </edge>
+    <edge source="com.yu.setting.Setting" target="java.util.Map">
+      <point x="103.0" y="-762.5" />
+      <point x="532.0" y="1903.0" />
+      <point x="630.0" y="1903.0" />
+      <point x="0.0" y="305.5" />
+    </edge>
+    <edge source="com.yu.core.getter.OptNullBasicTypeGetter" target="com.yu.core.getter.OptBasicTypeGetter">
+      <point x="67.0" y="-179.0" />
+      <point x="439.0" y="383.0" />
+      <point x="508.5" y="383.0" />
+      <point x="0.0" y="179.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8767923985027353" x="522.2127974145179" y="507.22619946799784" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
