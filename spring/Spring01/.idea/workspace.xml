@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc1a76c7-00f6-4b77-b1d2-44396a08e12a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fc1a76c7-00f6-4b77-b1d2-44396a08e12a" name="Default Changelist" comment="提交⌚️" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,8 +69,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599386233616</updated>
-      <workItem from="1599386234891" duration="1868000" />
+      <workItem from="1599386234891" duration="2078000" />
     </task>
+    <task id="LOCAL-00001" summary="提交⌚️">
+      <created>1599403888076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599403888076</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +94,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交⌚️" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交⌚️" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1599403331298">
