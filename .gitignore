@@ -16,3 +16,4 @@ DBPROJECT/dataSources.local.xml
 # Editor-based HTTP Client requests
 DBPROJECT/httpRequests/
 /DBPROJECT/out/*
+/spring/Spring01/target/*
