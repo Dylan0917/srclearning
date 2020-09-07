@@ -17,3 +17,4 @@ DBPROJECT/dataSources.local.xml
 DBPROJECT/httpRequests/
 /DBPROJECT/out/*
 /spring/Spring01/target/*
+workspace.xml
