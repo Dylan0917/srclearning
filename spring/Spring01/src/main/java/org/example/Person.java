@@ -6,6 +6,10 @@ public class Person {
     private boolean gender;
     private double salary;
 
+    public Person() {
+        System.out.println("Person creating...");
+    }
+
     public int getId() {
         return id;
     }
@@ -40,6 +44,11 @@ public class Person {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", gender=" + gender +
+                ", salary=" + salary +
+                '}';
     }
 }
