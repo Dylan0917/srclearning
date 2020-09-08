@@ -3,6 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean  id="Person" class="org.example.Person"></bean>
-
+<!--    <bean  id="Person" class="org.example.Person" init-method="initMethod" destroy-method="destoryMethod" scope="prototype"></bean>-->
+    <bean  id="Person" class="org.example.Person" init-method="initMethod" destroy-method="destoryMethod" >
+        <property name="name" value="cs"></property>
+        <property name="car">
+            <bean class="org.example.Car" />
+        </property>
+    </bean>
+    <alias name="Person" alias="person01"></alias> <!--//别名-->
+   <!-- <import resource="applicationContext.xml"></import>-->
 </beans>

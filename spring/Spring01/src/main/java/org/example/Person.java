@@ -5,9 +5,16 @@ public class Person {
     private String name;
     private boolean gender;
     private double salary;
+    private Car car;
 
     public Person() {
         System.out.println("Person creating...");
+    }
+    public void initMethod(){
+        System.out.println("Person init...");
+    }
+    public void destoryMethod(){
+        System.out.println("Person destory...");
     }
 
     public int getId() {
@@ -40,6 +47,14 @@ public class Person {
 
     public void setSalary(double salary) {
         this.salary = salary;
+    }
+
+    public Car getCar() {
+        return car;
+    }
+
+    public void setCar(Car car) {
+        this.car = car;
     }
 
     @Override
