@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+<!--    <bean  id="Person" class="org.example.Person" init-method="initMethod" destroy-method="destoryMethod" scope="prototype"></bean>-->
+    <bean class="org.example.Car" id="car"></bean>
+    <bean  id="person" class="org.example.Person">
+        <property name="car" ref = "car"/>
+    </bean>
+</beans>
