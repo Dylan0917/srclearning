@@ -18,3 +18,9 @@ DBPROJECT/httpRequests/
 /DBPROJECT/out/*
 /spring/Spring01/target/*
 workspace.xml
+spring/Spring01/.idea/misc.xml
+spring/Spring01/.idea/encodings.xml
+spring/spring02/target/surefire-reports/AppTest.txt
+spring/spring02/target/*
+spring/spring03/target/surefire-reports/AppTest.txt
+spring/spring03/target/*
