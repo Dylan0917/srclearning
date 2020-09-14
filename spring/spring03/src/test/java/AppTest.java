@@ -1,6 +1,9 @@
+import org.example.FlexibleBean;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import java.util.Arrays;
 
 /**
  * @author yu.wenhua
@@ -20,6 +23,10 @@ public class AppTest {
 //        System.out.println(o5);
 //        System.out.println(o2);
 //        System.out.println(o3);
+
+        FlexibleBean o4 = (FlexibleBean)context.getBean("flexibleBean01");
+        System.out.println(Arrays.asList(o4.getArr()));
+
     }
 
 
