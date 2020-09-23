@@ -2,7 +2,7 @@ package com.example;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component(value = "car1")
 public class Car {
     private String cid;
     private String color;
