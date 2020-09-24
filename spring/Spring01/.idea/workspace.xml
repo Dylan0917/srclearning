@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc1a76c7-00f6-4b77-b1d2-44396a08e12a" name="Default Changelist" comment="提交⌚️">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring02/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +46,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$USER_HOME$/repository" />
-        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.6.3/conf/settings.xml" />
+        <option name="localRepository" value="E:\maven\repo" />
+        <option name="mavenHome" value="C:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -59,6 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="SvnConfiguration">
@@ -72,6 +78,9 @@
       <option name="presentableId" value="Default" />
       <updated>1599386233616</updated>
       <workItem from="1599386234891" duration="2862000" />
+      <workItem from="1599477207974" duration="3630000" />
+      <workItem from="1599527761889" duration="4801000" />
+      <workItem from="1599615907663" duration="2410000" />
     </task>
     <task id="LOCAL-00001" summary="提交⌚️">
       <created>1599403888076</created>
@@ -96,35 +105,59 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交⌚️" />
     <option name="LAST_COMMIT_MESSAGE" value="提交⌚️" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1599403331298">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="483" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1599528859386">
+      <screen x="0" y="0" width="1304" height="768" />
     </state>
+    <state x="-1209" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1304.768/-1920.-139.1920.1040@-1920.-139.1920.1040" timestamp="1599481737147" />
+    <state x="483" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1304.768/-1920.-139.1920.1040@0.0.1304.768" timestamp="1599528859386" />
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1599403331298" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1599405977685">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="-1180" y="135" key="FileChooserDialogImpl" timestamp="1599479537668">
+      <screen x="-1920" y="-139" width="1920" height="1040" />
     </state>
+    <state x="-1180" y="135" key="FileChooserDialogImpl/0.0.1304.768/-1920.-139.1920.1040@-1920.-139.1920.1040" timestamp="1599479537668" />
+    <state width="1877" height="672" key="GridCell.Tab.0.bottom" timestamp="1599533423915">
+      <screen x="-1920" y="-139" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="672" key="GridCell.Tab.0.bottom/0.0.1304.768/-1920.-139.1920.1040@-1920.-139.1920.1040" timestamp="1599533423915" />
+    <state width="1261" height="470" key="GridCell.Tab.0.bottom/0.0.1304.768/-1920.-139.1920.1040@0.0.1304.768" timestamp="1599528968035" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599405977685" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1599405977684">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1877" height="672" key="GridCell.Tab.0.center" timestamp="1599533423914">
+      <screen x="-1920" y="-139" width="1920" height="1040" />
     </state>
+    <state width="1877" height="672" key="GridCell.Tab.0.center/0.0.1304.768/-1920.-139.1920.1040@-1920.-139.1920.1040" timestamp="1599533423914" />
+    <state width="1261" height="470" key="GridCell.Tab.0.center/0.0.1304.768/-1920.-139.1920.1040@0.0.1304.768" timestamp="1599528968035" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599405977684" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1599405977683">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1877" height="672" key="GridCell.Tab.0.left" timestamp="1599533423914">
+      <screen x="-1920" y="-139" width="1920" height="1040" />
     </state>
+    <state width="1877" height="672" key="GridCell.Tab.0.left/0.0.1304.768/-1920.-139.1920.1040@-1920.-139.1920.1040" timestamp="1599533423914" />
+    <state width="1261" height="470" key="GridCell.Tab.0.left/0.0.1304.768/-1920.-139.1920.1040@0.0.1304.768" timestamp="1599528968035" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599405977683" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1599405977684">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1877" height="672" key="GridCell.Tab.0.right" timestamp="1599533423914">
+      <screen x="-1920" y="-139" width="1920" height="1040" />
     </state>
+    <state width="1877" height="672" key="GridCell.Tab.0.right/0.0.1304.768/-1920.-139.1920.1040@-1920.-139.1920.1040" timestamp="1599533423914" />
+    <state width="1261" height="470" key="GridCell.Tab.0.right/0.0.1304.768/-1920.-139.1920.1040@0.0.1304.768" timestamp="1599528968035" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599405977684" />
+    <state x="-1459" y="25" key="SettingsEditor" timestamp="1599479541732">
+      <screen x="-1920" y="-139" width="1920" height="1040" />
+    </state>
+    <state x="-1459" y="25" key="SettingsEditor/0.0.1304.768/-1920.-139.1920.1040@-1920.-139.1920.1040" timestamp="1599479541732" />
     <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599403578675">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1599403578675" />
+    <state x="418" y="128" width="672" height="500" key="search.everywhere.popup" timestamp="1599530720300">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state x="-1304" y="34" width="670" height="676" key="search.everywhere.popup/0.0.1304.768/-1920.-139.1920.1040@-1920.-139.1920.1040" timestamp="1599479450801" />
+    <state x="418" y="128" width="672" height="500" key="search.everywhere.popup/0.0.1304.768/-1920.-139.1920.1040@0.0.1304.768" timestamp="1599530720300" />
   </component>
 </project>

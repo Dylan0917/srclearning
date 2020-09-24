@@ -17,7 +17,7 @@ public class AppTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 //        Object o4 = context.getBean("person03");
 //        Object o5 = context.getBean("person04");
-//        Object o2 = context.getBean("person02");
+        Object o2 = context.getBean("person02");
 //        Object o3 = context.getBean("person03","34","fddfdf","43");
 //        System.out.println(o4);
 //        System.out.println(o5);
@@ -26,6 +26,9 @@ public class AppTest {
 
         FlexibleBean o4 = (FlexibleBean)context.getBean("flexibleBean01");
         System.out.println(Arrays.asList(o4.getArr()));
+        System.out.println(o4.getList());
+        System.out.println(o4.getMap());
+        System.out.println(o4.getMap().get(o2));
 
     }
 

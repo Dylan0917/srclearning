@@ -121,3 +121,33 @@ T(java.lang.Math).random()  //获取0-1的随机数
 #{disc.title ?: 'Rattle'}                   //Elvis，如果是null的话结果则为Rattle
 #{admin.email matches '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._-]+\\.com'}  //正则表达式
 ```
+
+#### 复杂属性赋值
+
+```xml
+<bean id="flexibleBean01" class="org.example.FlexibleBean">
+    <property name="arr">
+        <array>
+            <value>1</value>
+            <value>2</value>
+        </array>
+    </property>
+     <property name="list">
+            <list>
+                <value>fdfd</value>
+                <value>eeeeee</value>
+                <bean class="org.example.Person"></bean>
+            </list>
+        </property>
+     <property name="map">
+            <map>
+                <entry key="1" value="1">
+                </entry>
+                <entry key="2" value-ref="person01">
+                </entry>
+                 <entry key-ref="person02" value-ref="person01">
+                </entry>
+            </map>
+        </property>
+</bean>
+```

@@ -52,8 +52,27 @@
 <!--    复杂属性赋值-->
     <bean id="flexibleBean01" class="org.example.FlexibleBean">
         <property name="arr">
-            <array>1</array>
-            <array>2</array>
+            <array>
+                <value>1</value>
+                <value>2</value>
+            </array>
+        </property>
+        <property name="list">
+            <list>
+                <value>fdfd</value>
+                <value>eeeeee</value>
+                <bean class="org.example.Person"></bean>
+            </list>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="1" value="1">
+                </entry>
+                <entry key="2" value-ref="person01">
+                </entry>
+                <entry key-ref="person02" value-ref="person01">
+                </entry>
+            </map>
         </property>
     </bean>
 
