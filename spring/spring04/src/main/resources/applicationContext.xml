@@ -6,4 +6,6 @@
 
 <!--    配置扫描包-->
     <context:component-scan base-package="com.example"></context:component-scan>
+<!--    <bean class="com.example.Person" autowire="default"></bean>-->
+<!--    <context:property-placeholder location="classpath:applicationContext.xml"></context:property-placeholder>-->
 </beans>

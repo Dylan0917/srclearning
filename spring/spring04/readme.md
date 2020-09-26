@@ -33,3 +33,36 @@ private Car car;
 pring 允许我们通过在使用@Autowired注解时，配合@Qualifier注解完成bean的默认byName注
 
 注释指定注入 Bean 的名称，这样歧义就消除了，可以通过下面的方法解决异常
+
+## 初始化方法和销毁方法
+
+```java
+//初始化方法
+@PostConstruct
+public void initmethod(){
+    System.out.println("Person init....");
+}
+//销毁方法
+@PreDestroy
+public void destoryMethod(){
+    System.out.println("Person destory....");
+}
+```
+
+### 引用类型自动装配
+
+```xml
+<bean class="com.example.Person" autowire="default"></bean>
+```
+
+### 加载properties配置文件的标签
+
+```xml
+<context:property-placeholder location="classpath:applicationContext.xml"></context:property-placeholder>
+```
+
+```java
+@Value(value = "${}") //为引用的配置文件的属性名
+private String name;
+```
+
