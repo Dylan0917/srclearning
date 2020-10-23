@@ -9,8 +9,10 @@ public class AppTest {
 
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         Caculator o = (Caculator) context.getBean(Caculator.class);
-        int s = o.add(1,2);
-        System.out.println(s);
+//        int s = o.add(1,2);
+         o.add1(1,2);
+//         o.divide(1,0);
+//        System.out.println(s);
 
     }
 }
