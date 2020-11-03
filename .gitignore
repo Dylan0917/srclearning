@@ -54,3 +54,13 @@ spring/springtx/target/site-webapp/WEB-INF/web.xml
 spring/springtx/target/surefire-reports/org.example.AppTest.txt
 spring/springtx/target/surefire-reports/TEST-org.example.AppTest.xml
 spring/springtx/target/test-classes/org/example/AppTest.class
+asmbyte/asmbyte.ipr
+asmbyte/asmbyte.iws
+asmbyte/target/classes/org/example/App.class
+asmbyte/target/classes/org/pa/Base.class
+asmbyte/target/classes/org/pa/Generator.class
+asmbyte/target/classes/org/pa/MyClassVisitor.class
+asmbyte/target/classes/org/pa/MyMethodVisitor.class
+asmbyte/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+asmbyte/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+asmbyte/target/test-classes/org/example/AppTest.class
