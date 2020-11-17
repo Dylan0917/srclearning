@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'io.spring.dependency-management' version '1.0.9.RELEASE' apply false
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+configure(allprojects) { project ->
+    apply plugin: "io.spring.dependency-management"
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/spring/'}
+        mavenCentral()
+        maven { url "https://repo.spring.io/libs-spring-framework-build" }
+    }
+    configurations.all {
+        resolutionStrategy {
+            cacheChangingModulesFor 0, "seconds"
+            cacheDynamicVersionsFor 0, "seconds"
+        }
+    }
+}
+//引用公共的配置文件
+/*ext {
+    moduleProjects = subprojects.findAll { it.name.startsWith("module-") }
+}
+configure(moduleProjects) { project ->
+    apply from: "${rootDir}/gradle/common.gradle"
+}
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}*/
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
