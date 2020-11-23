@@ -16,12 +16,15 @@
         // alert("fdfd");
           var params = '{"uid": "1","userName": "测试商品"}';
           $.ajax({
-              type:"GET",
+              type:"post",
               url:"/s01/c02/m01",
-              dataType:"JSON",
-             data:params,
+              // dataType:'json',
+             contentType:"application/json;charset=UTF-8",
+             data:JSON.stringify(params),//方法用于将 JavaScript 值转换为 JSON 字符串
               success:function (data) {
                   alert(data.name);
+              },error:function (d) {
+                  alert(d);
               }
           });
     }
