@@ -34,6 +34,11 @@ dependencies {
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.11.0'
 // https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator
     compile group: 'org.hibernate.validator', name: 'hibernate-validator', version: '6.1.5.Final'
+// https://mvnrepository.com/artifact/commons-io/commons-io
+    compile group: 'commons-io', name: 'commons-io', version: '2.4'
+// https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload
+    compile group: 'commons-fileupload', name: 'commons-fileupload', version: '1.4'
+
 
     // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
 //    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.12.1'

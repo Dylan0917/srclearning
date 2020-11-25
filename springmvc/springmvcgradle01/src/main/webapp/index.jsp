@@ -67,5 +67,13 @@
     日期<input type="text" name="inDate">
     <input type="submit" value="提交(POST)/c01/m14">
 </form>
+<h2>---------------文件下载一----------------------</h2>
+<form action="${pageContext.request.contextPath}/download/d1">
+    <b>文件下载</b>
+    文件名<input type="text" name="filename">
+    <input type="submit" value="提交(POST)/download/d1">
+</form>
+<h2>---------------文件下载二----------------------</h2>
+<a href="${pageContext.request.contextPath}/download/d1?filename=svnant-1.3.0.zip">下载</a>
 </body>
 </html>
