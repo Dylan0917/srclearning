@@ -12,7 +12,7 @@ dependencies {
 	testCompile(project(":spring-expression"))
 	testCompile(project(":spring-jdbc"))
 	testCompile(project(":spring-orm"))
-	testCompile(project(":spring-test"))
+//	testCompile(project(":spring-test"))
 	testCompile(project(":spring-tx"))
 	testCompile(project(":spring-web"))
 	testCompile("javax.inject:javax.inject")
