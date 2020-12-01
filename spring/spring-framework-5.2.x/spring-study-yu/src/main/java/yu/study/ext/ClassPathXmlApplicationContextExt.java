@@ -50,8 +50,11 @@ public class ClassPathXmlApplicationContextExt extends ClassPathXmlApplicationCo
 	}
 
 
+	//扩展方法
 	@Override
 	protected void initPropertySources() {
-		System.out.println("---自定义initPropertySources-------------------");;
+		System.out.println("-------initPropertySourcesExt-------------------");
+//		强制要求一些环境变量必须存在
+//		getEnvironment().setRequiredProperties("fd");
 	}
 }
