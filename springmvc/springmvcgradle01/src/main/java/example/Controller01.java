@@ -127,4 +127,30 @@ public class Controller01 {
         mv.setViewName("success7");
        return mv;
     }
+
+    /*spring局部异常处理*/
+//    当出了异常之后，会在当前controller类中找继承关系最浅的那个异常处理方法
+    @RequestMapping(value = "m15")
+    public String m15() {
+//        该异常会由handleException02处理
+        int a = 10 / 0;
+        System.out.println(a);
+        return "success";
+    }
+  /*  @ExceptionHandler(value = {Exception.class})
+    public ModelAndView handleException01(Exception e){
+        e.printStackTrace();
+        System.out.println("handleException01.................");
+        ModelAndView mv = new ModelAndView("error");
+        mv.addObject("errorMsg",e.getLocalizedMessage());
+        return mv;
+    }
+    @ExceptionHandler(value = {RuntimeException.class})
+    public ModelAndView handleException02(Exception e){
+        e.printStackTrace();
+        System.out.println("handleException02.................");
+        ModelAndView mv = new ModelAndView("error");
+        mv.addObject("errorMsg",e.getLocalizedMessage());
+        return mv;
+    }*/
 }

@@ -75,5 +75,10 @@
 </form>
 <h2>---------------文件下载二----------------------</h2>
 <a href="${pageContext.request.contextPath}/download/d1?filename=svnant-1.3.0.zip">下载</a>
+<h2>-------------------局部异常处理------------------</h2>
+<form action="${pageContext.request.contextPath}/c01/m15" method="post">
+    <b>局部异常处理</b>
+    <input type="submit" value="提交(POST)/c01/m15">
+</form>
 </body>
 </html>
