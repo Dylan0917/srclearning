@@ -1,0 +1,91 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven { url 'https://maven.aliyun.com/repository/public/' }
+    maven { url 'https://maven.aliyun.com/repository/spring/'}
+    mavenCentral()
+    jcenter()
+    maven { url "https://repo.spring.io/libs-spring-framework-build" }
+}
+//配置文件处理
+configurations {
+    provided
+}
+sourceSets {
+    main{
+        resources.srcDirs = ["src/main/java", "src/main/resources"]
+    }
+    main.compileClasspath += configurations.provided
+    test.compileClasspath += configurations.provided
+    test.runtimeClasspath += configurations.provided
+}
+
+dependencies {
+    compile group: 'org.springframework', name: 'spring-web', version: '5.2.6.RELEASE'
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '5.2.6.RELEASE'
+    compile group: 'com.oracle.database.jdbc', name: 'ojdbc6', version: '11.2.0.4'
+    // https://mvnrepository.com/artifact/org.springframework/spring-jdbc
+    compile group: 'org.springframework', name: 'spring-jdbc', version: '5.2.6.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework/spring-context-support
+    compile group: 'org.springframework', name: 'spring-context-support', version: '5.2.6.RELEASE'
+// https://mvnrepository.com/artifact/org.mybatis/mybatis
+    compile group: 'org.mybatis', name: 'mybatis', version: '3.5.3'
+    // https://mvnrepository.com/artifact/org.springframework/spring-websocket
+    compile group: 'org.springframework', name: 'spring-websocket', version: '5.2.6.RELEASE'
+// https://mvnrepository.com/artifact/org.mybatis/mybatis-spring
+    compile group: 'org.mybatis', name: 'mybatis-spring', version: '2.0.3'
+// https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload
+    compile group: 'commons-fileupload', name: 'commons-fileupload', version: '1.3.1'
+// https://mvnrepository.com/artifact/commons-io/commons-io
+    compile group: 'commons-io', name: 'commons-io', version: '2.8.0'
+// https://mvnrepository.com/artifact/commons-codec/commons-codec
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.14'
+// https://mvnrepository.com/artifact/org.projectlombok/lombok
+    providedCompile group: 'org.projectlombok', name: 'lombok', version: '1.18.8'
+// https://mvnrepository.com/artifact/net.coobird/thumbnailator
+    compile group: 'net.coobird', name: 'thumbnailator', version: '0.4.8'
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.11.0'
+// https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.0'
+// https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.11.0'
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.49'
+// https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.12.1'
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.12.1'
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-web
+    compile group: 'org.apache.logging.log4j', name: 'log4j-web', version: '2.12.1'
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl
+    //用于与slf4j保持桥接
+    compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.14.0'
+// https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
+// https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf-spring5
+    compile group: 'org.thymeleaf', name: 'thymeleaf-spring5', version: '3.0.11.RELEASE'
+// https://mvnrepository.com/artifact/org.mockito/mockito-core
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '3.2.0'
+// https://mvnrepository.com/artifact/com.mchange/c3p0
+    compile group: 'com.mchange', name: 'c3p0', version: '0.9.5.5'
+// https://mvnrepository.com/artifact/com.alibaba/fastjson
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.75'
+// https://mvnrepository.com/artifact/org.apache.commons/commons-email
+    compile group: 'org.apache.commons', name: 'commons-email', version: '1.5'
+// https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina
+    compile group: 'org.apache.tomcat', name: 'tomcat-catalina', version: '8.5.28'
+// https://mvnrepository.com/artifact/aopalliance/aopalliance
+    compile group: 'aopalliance', name: 'aopalliance', version: '1.0'
+// https://mvnrepository.com/artifact/org.aspectj/aspectjweaver
+    runtime group: 'org.aspectj', name: 'aspectjweaver', version: '1.9.5'
+
+    testCompile group: 'org.springframework', name: 'spring-test', version: '5.2.6.RELEASE'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
