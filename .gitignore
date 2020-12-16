@@ -34,3 +34,5 @@ scaProject/*
 spring/springtxxml/*
 tools/ratelimiterLen/target/*
 springmvc/springmvc01/target
+springmvc/tradingplatform/build/*
+springmvc/tradingplatform/out/*

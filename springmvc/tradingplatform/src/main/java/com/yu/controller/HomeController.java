@@ -3,8 +3,6 @@ package com.yu.controller;
 import com.yu.pojo.UserInformation;
 import com.yu.utils.StringUtils;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
