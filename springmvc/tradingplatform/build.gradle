@@ -48,6 +48,7 @@ dependencies {
     compile group: 'commons-codec', name: 'commons-codec', version: '1.14'
 // https://mvnrepository.com/artifact/org.projectlombok/lombok
     providedCompile group: 'org.projectlombok', name: 'lombok', version: '1.18.8'
+    annotationProcessor  group: 'org.projectlombok', name: 'lombok', version: '1.18.8'
 // https://mvnrepository.com/artifact/net.coobird/thumbnailator
     compile group: 'net.coobird', name: 'thumbnailator', version: '0.4.8'
     // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
@@ -88,4 +89,8 @@ dependencies {
 
     testCompile group: 'org.springframework', name: 'spring-test', version: '5.2.6.RELEASE'
     testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+//给gradle添加UTF-8支持
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
 }
