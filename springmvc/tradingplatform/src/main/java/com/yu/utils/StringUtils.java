@@ -1,5 +1,10 @@
 package com.yu.utils;
 
+import org.apache.commons.codec.binary.Base64;
+
+import java.io.UnsupportedEncodingException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.Collection;
 import java.util.Map;
 
@@ -45,7 +50,18 @@ public class StringUtils {
         return false;
     }
 
-
+    public String getMD5(String str) {
+        String result = "";
+        try {
+            MessageDigest md5 = MessageDigest.getInstance("MD5");
+            result = new String(Base64.encodeBase64(md5.digest(str.getBytes("UTF-8"))));
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
 
 
 

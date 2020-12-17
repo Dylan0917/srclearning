@@ -15,7 +15,8 @@
 
     <!--开启注解-->
     <mvc:annotation-driven/>
-    <context:component-scan base-package="com.yu.controller">
+    <context:component-scan base-package="com.yu.controller"></context:component-scan>
+    <context:component-scan base-package="com.yu.service">
     </context:component-scan>
    <!-- 当数据库字段为date类型时，@ResponseBody注解在转换日期类型时会默认把日期转换为时间戳（例如： date：2017-10-25  转换为 时间戳：15003323990）。
     此时有两种方式可以解决日期转换Json问题：

@@ -1,6 +1,6 @@
 package com.yu.token;
 
-import sun.misc.BASE64Encoder;
+import org.apache.commons.codec.binary.Base64;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -33,8 +33,7 @@ public class TokenProccessor {
             MessageDigest md = MessageDigest.getInstance("md5");
             byte md5[] = md.digest(token.getBytes());
             //base64编码--任意二进制编码明文字符   adfsdfsdfsf
-            BASE64Encoder encoder = new BASE64Encoder();
-            return encoder.encode(md5);
+            return new String(Base64.encodeBase64(md5));
         } catch (NoSuchAlgorithmException e) {
             throw new RuntimeException(e);
         }
